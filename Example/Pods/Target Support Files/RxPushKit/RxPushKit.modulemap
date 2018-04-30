@@ -1,0 +1,6 @@
+framework module RxPushKit {
+  umbrella header "RxPushKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

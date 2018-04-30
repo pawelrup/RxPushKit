@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'RxPushKit_Example' do
+  pod 'SwiftLint'
+  pod 'RxPushKit', :path => '../'
+
+  target 'RxPushKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
