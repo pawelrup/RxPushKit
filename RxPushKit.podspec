@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RxPushKit'
-  s.version          = '0.1.0'
+  s.version          = '0.1.2'
   s.summary          = 'Reactive extension for PushKit.'
 
   s.description      = <<-DESC
