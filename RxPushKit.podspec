@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 
   s.homepage         = 'https://github.com/pawelrup/RxPushKit'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'pawelrup' => 'rupeqdj@gmail.com' }
+  s.author           = { 'Paweł Rup' => 'pawelrup@lobocode.pl' }
   s.source           = { :git => 'https://github.com/pawelrup/RxPushKit.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
