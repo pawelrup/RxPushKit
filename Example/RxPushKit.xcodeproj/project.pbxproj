@@ -166,8 +166,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "RxPushKit_Example" */;
 			buildPhases = (
-				BA239B262097799400431BFA /* [SwiftLint] Run Script */,
 				0B84CE1D6E36F89057904C90 /* [CP] Check Pods Manifest.lock */,
+				BA239B262097799400431BFA /* [SwiftLint] Run Script */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,

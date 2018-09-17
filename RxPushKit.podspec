@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RxPushKit'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'Reactive extension for PushKit.'
 
   s.description      = <<-DESC
@@ -31,6 +31,6 @@ Pod::Spec.new do |s|
   }
   
   s.frameworks = 'PushKit'
-  s.dependency 'RxSwift', '~> 4.1.2'
-  s.dependency 'RxCocoa', '~> 4.1.2'
+  s.dependency 'RxSwift', '~> 4.3.0'
+  s.dependency 'RxCocoa', '~> 4.3.0'
 end

@@ -1,18 +1,18 @@
 PODS:
-  - RxCocoa (4.1.2):
+  - RxCocoa (4.3.0):
     - RxSwift (~> 4.0)
-  - RxPushKit (0.1.0):
-    - RxCocoa (~> 4.1.2)
-    - RxSwift (~> 4.1.2)
-  - RxSwift (4.1.2)
-  - SwiftLint (0.25.1)
+  - RxPushKit (0.1.4):
+    - RxCocoa (~> 4.3.0)
+    - RxSwift (~> 4.3.0)
+  - RxSwift (4.3.0)
+  - SwiftLint (0.27.0)
 
 DEPENDENCIES:
   - RxPushKit (from `../`)
   - SwiftLint
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  https://github.com/cocoapods/specs.git:
     - RxCocoa
     - RxSwift
     - SwiftLint
@@ -22,11 +22,11 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  RxCocoa: d88ba0f1f6abf040011a9eb4b539324fc426843a
-  RxPushKit: 468836e1fc4f809cad120cf06ae66311865234cf
-  RxSwift: e49536837d9901277638493ea537394d4b55f570
-  SwiftLint: ce933681be10c3266e82576dad676fa815a602e9
+  RxCocoa: 71b9cce833fbcb89a8eec11816dd225830c2bd3c
+  RxPushKit: 283f8d7195b2cb958f90f2f710c6fd6f8716f95a
+  RxSwift: a9717a34df3179fe63563f76e046ad345078dd3a
+  SwiftLint: 3207c1faa2240bf8973b191820a116113cd11073
 
 PODFILE CHECKSUM: f1a5869ddc2f8d040577d610b35c7b6868153b2d
 
-COCOAPODS: 1.5.0
+COCOAPODS: 1.5.3
