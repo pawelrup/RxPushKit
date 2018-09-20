@@ -8,12 +8,12 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RxPushKit'
-  s.version          = '0.1.4'
+  s.version          = '0.1.5'
   s.summary          = 'Reactive extension for PushKit.'
 
   s.description      = <<-DESC
   RxPushKit is an RxSwift reactive extension for PushKit.
-  Requires Xcode 9.3 with Swift 4.1.
+  Requires Xcode 10.0 with Swift 4.2.
                        DESC
 
   s.homepage         = 'https://github.com/pawelrup/RxPushKit'
@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
   
-  s.swift_version = '4.1'
+  s.swift_version = '4.2'
 
   s.source_files = 'RxPushKit/Classes/**/*'
   s.pod_target_xcconfig =  {
