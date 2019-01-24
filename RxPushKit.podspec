@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RxPushKit'
-  s.version          = '0.1.5'
+  s.version          = '0.1.6'
   s.summary          = 'Reactive extension for PushKit.'
 
   s.description      = <<-DESC
@@ -27,10 +27,10 @@ Pod::Spec.new do |s|
 
   s.source_files = 'RxPushKit/Classes/**/*'
   s.pod_target_xcconfig =  {
-	  'SWIFT_VERSION' => '4.1',
+	  'SWIFT_VERSION' => '4.2',
   }
   
   s.frameworks = 'PushKit'
-  s.dependency 'RxSwift', '~> 4.3.0'
-  s.dependency 'RxCocoa', '~> 4.3.0'
+  s.dependency 'RxSwift', '~> 4.4.0'
+  s.dependency 'RxCocoa', '~> 4.4.0'
 end
