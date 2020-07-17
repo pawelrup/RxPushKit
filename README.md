@@ -17,7 +17,7 @@ Xcode 12, Swift 5.3
 
 RxUserNotifications is available through Swift Package Manager. To install it, add the following line to your `Package.swift` into dependencies:
 ```swift
-.package(url: "https://github.com/pawelrup/RxPushKit", .upToNextMinor(from: "1.1.0"))
+.package(url: "https://github.com/pawelrup/RxPushKit", .upToNextMinor(from: "0.1.8"))
 ```
 and then add `RxPushKit` to your target dependencies.
 
@@ -88,7 +88,7 @@ You can see usage of `RxPushKit` in example.
 
 ## Author
 
-lobocode, pawelrup@lobocode.pl
+Paweł Rup, pawelrup@lobocode.pl
 
 ## License
 
